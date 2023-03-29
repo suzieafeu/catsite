@@ -5,5 +5,20 @@ html, body{
     background-color: rgb(241, 233, 233);
 }
 
+h1{
+    text-align: center;
+}
 
+h5{
+    text-shadow:  3px 3px 3px rgb(57, 56, 56);
+    font-size: 400%;
+}
 
+p{
+    text-align: center;
+}
+
+.carousel-inner p{
+    text-shadow:  2px 2px 2px rgb(57, 56, 56); 
+    font-size: 120%;
+}
