@@ -24,7 +24,7 @@ h1{
 }
 
 .carousel-inner h5{
-    text-shadow: 3px 3px 3px rgb(57, 56, 56);
+    text-shadow: 3px 3px 3px rgb(39, 38, 38);
     font-size: 400%;
 }
 
@@ -34,20 +34,28 @@ p{
 }
 
 .carousel-inner p{
-    text-shadow:  2px 2px 2px rgb(57, 56, 56); 
+    text-shadow:  2px 2px 2px rgb(28, 27, 27); 
     font-size: 120%;
 }
 
 #carouselAutoplaying{
-    scroll-margin-top: 50px;
+    scroll-margin-top: 55px;
 }
 
 #a-propos{
-    scroll-margin-top: 50px;
+    scroll-margin-top: 55px;
 }
 
 #achats{
-    scroll-margin-top: 50px;
+    scroll-margin-top: 55px;
+}
+
+#prochainement{
+    scroll-margin-top: 55px;
+}
+
+#contacts{
+    scroll-margin-top: 55px;
 }
 
 .roseatre{
@@ -57,4 +65,12 @@ p{
 .whiteText{
     color: white;
     font-weight: bold;
+}
+
+.centerText{
+    text-align: center;
+}
+
+.centerItems{
+    justify-content: space-around;
 }
