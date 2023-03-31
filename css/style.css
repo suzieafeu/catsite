@@ -11,6 +11,11 @@ html, body{
     position: sticky;
     top: 0;
     width: 100%;
+    z-index: 1;
+}
+
+.row{
+    margin-top: 2%;
 }
 
 h1{
@@ -19,12 +24,13 @@ h1{
 }
 
 .carousel-inner h5{
-    text-shadow:  3px 3px 3px rgb(57, 56, 56);
+    text-shadow: 3px 3px 3px rgb(57, 56, 56);
     font-size: 400%;
 }
 
 p{
     text-align: center;
+    margin-top: 2%;
 }
 
 .carousel-inner p{
@@ -40,6 +46,15 @@ p{
     scroll-margin-top: 50px;
 }
 
-#achat{
+#achats{
     scroll-margin-top: 50px;
+}
+
+.roseatre{
+    background-color: #e6aeb3
+}
+
+.whiteText{
+    color: white;
+    font-weight: bold;
 }

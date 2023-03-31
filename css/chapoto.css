@@ -1,0 +1,15 @@
+html, body{
+    margin: 0;
+    padding: 0;
+
+    background-color: rgb(241, 233, 233);
+
+    scroll-behavior: smooth;
+}
+
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
