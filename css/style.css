@@ -14,6 +14,51 @@ html, body{
     z-index: 1;
 }
 
+.panels{
+    background-color: red;
+    height: 100vh;
+    width: 100vw;
+
+    display:flex;
+    margin-top: 2%;
+}
+
+.panel{
+    height: 100%;
+    flex:1;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition : flex .7s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel:hover{
+    flex: 3;
+}
+.panel:hover>.titreJeu{
+    opacity: 100%;
+}
+
+.muta{
+    background-image: url("../img/muta.jpg");
+}
+.luna{
+    background-image: url("../img/luna.jpg");
+}
+
+.chi{
+    background-image: url("../img/chi.jpg");
+}
+
+.stray{
+    background-image: url("../img/stray.jpg");
+}
+
 .row{
     margin-top: 2%;
 }
@@ -34,7 +79,7 @@ p{
 }
 
 .carousel-inner p{
-    text-shadow:  2px 2px 2px rgb(28, 27, 27); 
+    text-shadow: 2px 2px 2px rgb(28, 27, 27); 
     font-size: 120%;
 }
 
@@ -73,4 +118,11 @@ p{
 
 .centerItems{
     justify-content: space-around;
+}
+
+.titreJeu{
+    color: white;
+    font-weight: bold;
+    font-size: 500%;
+    text-shadow: 5px 5px 5px rgb(28, 27, 27); 
 }
