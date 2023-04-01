@@ -7,6 +7,11 @@ html, body{
     scroll-behavior: smooth;
 }
 
+.fontTitre{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
 .sticky{
     position: sticky;
     top: 0;
@@ -65,11 +70,15 @@ html, body{
 h1{
     text-align: center;
     margin-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
 }
 
 .carousel-inner h5{
     text-shadow: 3px 3px 3px rgb(39, 38, 38);
     font-size: 400%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
 }
 
 p{
@@ -109,7 +118,6 @@ p{
 
 .whiteText{
     color: white;
-    font-weight: bold;
 }
 
 .centerText{
@@ -117,14 +125,15 @@ p{
 }
 
 .centerItems{
-    justify-content: space-around;
+    display: flex;
+    justify-content: center;
 }
 
 .titreJeu{
-    color: white;
-    font-weight: bold;
-    font-size: 500%;
-    text-shadow: 5px 5px 5px rgb(28, 27, 27); 
+    color: #e6aeb3;
+    font-size: 400%;
+    text-shadow: 3px 3px 3px rgb(28, 27, 27);
+     
 }
 
 .whiteBackground{
@@ -135,3 +144,6 @@ p{
     background-color: rgb(241, 233, 233);
 }
 
+.contacts{
+    padding-bottom: 5%;
+}
