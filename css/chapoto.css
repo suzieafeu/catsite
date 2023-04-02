@@ -57,6 +57,9 @@ h1{
     padding-top: 5%;
     font-family: 'Oswald', sans-serif;
     font-family: 'Righteous', cursive;
+    font-size: 400%;
+    color: #cb747b;
+    text-shadow: 2px 2px 2px #e6aeb3;
 }
 
 p{
@@ -69,14 +72,14 @@ p{
 }
 
 .carousel-inner h5{
-    text-shadow: 3px 3px 3px rgb(39, 38, 38);
+    text-shadow: 3px 3px 3px #cb747b;
     font-size: 400%;
     font-family: 'Oswald', sans-serif;
     font-family: 'Righteous', cursive;
 }
 
 .carousel-inner p{
-    text-shadow: 2px 2px 2px rgb(28, 27, 27); 
+    text-shadow: 2px 2px 2px #cb747b; 
     font-size: 120%;
 }
 
