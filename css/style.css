@@ -19,6 +19,14 @@ html, body{
     z-index: 1;
 }
 
+.achat h1{
+    margin-bottom: 3%;
+}
+
+.row{
+    margin-top: 2%;
+}
+
 .panels{
     height: 70vh;
     width: 98.7vw;
@@ -61,10 +69,6 @@ html, body{
 
 .stray{
     background-image: url("../img/stray.jpg");
-}
-
-.row{
-    margin-top: 2%;
 }
 
 h1{
@@ -126,9 +130,24 @@ p{
     text-align: center;
 }
 
+.colorPinkTransition{
+    color: #cb747b;
+    transition: 0.5s;
+}
+
+.colorPinkTransition:hover{
+    color: #e6aeb3;
+}
+
 .centerItems{
     display: flex;
     justify-content: center;
+}
+
+.textPink{
+    color: #cb747b;
+    font-size: 150%;
+    font-weight: bold;
 }
 
 .titreJeu{

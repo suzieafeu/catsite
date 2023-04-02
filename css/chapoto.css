@@ -62,9 +62,32 @@ h1{
     text-shadow: 2px 2px 2px #e6aeb3;
 }
 
+.textPink{
+    color: #cb747b;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.cartesAvis{
+    display: flex;
+    justify-content: space-around;
+}
+
+.star{
+    display: flex;
+    justify-content: center;
+}
+
+
+
 p{
     text-align: center;
     margin-top: 2%;
+    font-size: 125%;
+}
+
+.avis h1{
+    margin-bottom: 3%;
 }
 
 .contacts{
@@ -93,4 +116,8 @@ h2{
     font-family: 'Oswald', sans-serif;
     font-family: 'Righteous', cursive;
     margin-top: 2%;
+}
+
+.centerText{
+    text-align: center;
 }
