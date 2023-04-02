@@ -1,71 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>CatSite</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/chapoto.css">
-    </head>
 
-    <body>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">CatSite</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#carouselAutoplaying">Accueil</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#a-propos">À propos</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#achats">Achats</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#prochainement">Prochainement</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#contacts">Contacts</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Les Chats</a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Le Chat Potté</a></li>
-                      <li><a class="dropdown-item" href="#">Berlioz</a></li>
-                      <li><a class="dropdown-item" href="#">Yuumi</a></li>
-                      <li><a class="dropdown-item" href="#">Jiji</a></li>
-                      <li><a class="dropdown-item" href="#">CatQuest</a></li>
-                    </ul>
-                  </li>
-                </ul>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Chat Potté</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/chapoto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Righteous&display=swap" rel="stylesheet">
+  </head>
+
+
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky fontTitre">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html">CatSite</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav .ms-auto mb-2 mb-lg-0"> 
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#carouselAutoplaying">Accueil</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#histoire">Histoire</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#acheter">Acheter</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#avis">Avis</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#contacts">Contacts</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Les Chats</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="chapoto.html">Le Chat Potté</a></li>
+                <li><a class="dropdown-item" href="#">Berlioz</a></li>
+                <li><a class="dropdown-item" href="#">Yuumi</a></li>
+                <li><a class="dropdown-item" href="#">Jiji</a></li>
+                <li><a class="dropdown-item" href="#">CatQuest</a></li>
+                <li><a class="dropdown-item" href="#">Daijin</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+
+    <div class="pinkBackground">
+
+      <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/chapoto1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Le Chat Potté</h5>
+              <p>Le plus téméraire des héro !</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+
+        <div class="accueil" id="accueil">
+          <h1>Le Chat Potté</h1>
+
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium nihil dolores veritatis dolor. Repellat, sed nobis suscipit voluptatibus perferendis reprehenderit cumque, iure, assumenda sequi modi soluta nulla laboriosam fugit fugiat deleniti commodi ullam voluptatem est molestias aut blanditiis et cum? Eum nam suscipit commodi, molestias labore ducimus optio itaque repellat!</p>
+        </div>
+
+        <div class="histoire" id="histoire">
+          <h1>L'histoire du Chat Potté</h1>
+
+          <div class="scenario">
+            <h2>Le scénario du Chat Potté 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia facilis quam laborum, et ipsa voluptatem nobis, perferendis quia fugiat delectus dolores soluta minus. Ab dicta commodi consequuntur voluptas tempore. Veniam harum maxime enim saepe expedita ad dolorem cupiditate inventore minus autem. Est magni labore ab ipsa ipsum optio sint et quae esse! Harum dolores perferendis veniam autem et, illum dolor error velit odio quo perspiciatis id molestias, ratione tempora expedita suscipit accusamus placeat, eveniet reprehenderit mollitia totam voluptates ad explicabo? Eligendi, optio rem veniam quis officia, aliquam doloremque fugit reiciendis, numquam voluptatem culpa incidunt molestias dolores deserunt est impedit illum.</p>
+          </div>
+
+          <div class="personnages">
+            <h2>Les personnages emblèmatiques du Chat Potté 2</h2>
+          </div>
+        </div>
+
+        <div class="acheter" id="acheter">
+          <h1>Où acheter le Chat Potté</h1>
+        </div>
+
+        <div class="avis" id="avis">
+          <h1>Avis à propos du Chat Potté</h1>
+        </div>
+
+        <div class="contacts" id="contacts">
+          <h1>Contactez CatSite !</h1>
+          <p>Si vous avez d'autres chats à nous suggérer ou que vous souhaitez en savoir plus sur Catsite : contactez-nous !</p>
+  
+          <form class="row g-3 needs-validation container" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label fontTitre">Prénom</label>
+              <input type="text" class="form-control" id="validationCustom01" placeholder="Arthur" required>
+            </div>
+  
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label fontTitre">Nom</label>
+              <input type="text" class="form-control" id="validationCustom02" placeholder="Chapotot" required>
+            </div>
+  
+            <div class="col-md-4">
+              <label for="validationCustomUsername" class="form-label fontTitre">Adresse email</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text" id="inputGroupPrepend">@</span>
+                <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend"
+                  placeholder="nom@exemple.com" required>
               </div>
             </div>
-        </nav>
-        
-        <div class="container">
-            <img src="img/chapoto.jpg" alt="">
+  
+            <div class="mb-3">
+              <label for="disabledSelect" class="form-label fontTitre">Sujet</label>
+              <select id="disabledSelect" class="form-select">
+                <option>Nouveaux chats</option>
+                <option>Plus d'informations</option>
+                <option>Postuler</option>
+                <option>Autre</option>
+              </select>
+            </div>
+  
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label fontTitre">Message</label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+  
+            <div class="mb-3">
+              <button class="btn roseatre whiteText fontTitre" type="submit">Envoyer</button>
+            </div>
+          </form>
         </div>
 
-        <div class="container">
-            <footer class="py-3 my-4">
-              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#accueil" class="nav-link px-2 text-body-secondary">Accueil</a></li>
-                <li class="nav-item"><a href="#a-propos" class="nav-link px-2 text-body-secondary">À propos</a></li>
-                <li class="nav-item"><a href="#achats" class="nav-link px-2 text-body-secondary">Achats</a></li>
-                <li class="nav-item"><a href="#prochainement" class="nav-link px-2 text-body-secondary">Prochainement</a></li>
-                <li class="nav-item"><a href="#contacts" class="nav-link px-2 text-body-secondary">Contacts</a></li>
-              </ul>
-              <p class="text-center text-body-secondary">&copy; 2023 CatSite Society, Inc</p>
-            </footer>
-        </div>
+      </div>
+    </div>
+ 
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
-    </body>
+    <div class="container">
+      <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="#carouselAutoplaying" class="nav-link px-2 text-body-secondary">Accueil</a></li>
+          <li class="nav-item"><a href="#histoire" class="nav-link px-2 text-body-secondary">Histoire</a></li>
+          <li class="nav-item"><a href="#achater" class="nav-link px-2 text-body-secondary">Acheter</a></li>
+          <li class="nav-item"><a href="#avis" class="nav-link px-2 text-body-secondary">Avis</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link px-2 text-body-secondary">Contacts</a></li>
+        </ul>
+        <p class="text-center text-body-secondary">&copy; 2023 CatSite Society, Inc</p>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
+  </body>
+
 </html>

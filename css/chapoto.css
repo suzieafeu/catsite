@@ -2,7 +2,7 @@ html, body{
     margin: 0;
     padding: 0;
 
-    background-color: rgb(241, 233, 233);
+    background-color: white;
 
     scroll-behavior: smooth;
 }
@@ -12,4 +12,82 @@ html, body{
     top: 0;
     width: 100%;
     z-index: 1;
+}
+
+.fontTitre{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+.roseatre{
+    background-color: #e6aeb3;
+    align-items: center;
+}
+
+.whiteText{
+    color: white;
+}
+
+.pinkBackground{
+    background-color: rgb(241, 233, 233);
+}
+
+#carouselAutoplaying{
+    scroll-margin-top: 55px;
+}
+
+#histoire{
+    scroll-margin-top: 55px;
+}
+
+#acheter{
+    scroll-margin-top: 55px;
+}
+
+#avis{
+    scroll-margin-top: 55px;
+}
+
+#contacts{
+    scroll-margin-top: 55px;
+}
+
+h1{
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+p{
+    text-align: center;
+    margin-top: 2%;
+}
+
+.contacts{
+    padding-bottom: 5%;
+}
+
+.carousel-inner h5{
+    text-shadow: 3px 3px 3px rgb(39, 38, 38);
+    font-size: 400%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+}
+
+.carousel-inner p{
+    text-shadow: 2px 2px 2px rgb(28, 27, 27); 
+    font-size: 120%;
+}
+
+.right{
+    display: flex;
+    justify-content: flex-end;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+    margin-top: 2%;
 }
