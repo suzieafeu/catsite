@@ -1,74 +1,20 @@
+/*structure de la page*/
 html, body{
     margin: 0;
     padding: 0;
-
     background-color: white;
-
     scroll-behavior: smooth;
 }
 
+.pinkBackground{
+    background-color: rgb(241, 233, 233);
+}
+
+
+/*textes*/
 .fontTitre{
     font-family: 'Oswald', sans-serif;
     font-family: 'Righteous', cursive;
-}
-
-.sticky{
-    position: sticky;
-    top: 0;
-    width: 100%;
-    z-index: 1;
-}
-
-.achat h1{
-    margin-bottom: 3%;
-}
-
-.row{
-    margin-top: 2%;
-}
-
-.panels{
-    height: 70vh;
-    width: 98.7vw;
-
-    display:flex;
-    margin-top: 2%;
-}
-
-.panel{
-    height: 100%;
-    flex:1;
-
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition : flex .7s ease-in-out;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.panel:hover{
-    flex: 3;
-}
-.panel:hover>.titreJeu{
-    opacity: 100%;
-}
-
-.muta{
-    background-image: url("../img/muta.jpg");
-}
-.luna{
-    background-image: url("../img/luna.jpg");
-}
-
-.chi{
-    background-image: url("../img/chi.jpg");
-}
-
-.stray{
-    background-image: url("../img/stray.jpg");
 }
 
 h1{
@@ -81,9 +27,15 @@ h1{
     text-shadow: 2px 2px 2px #e6aeb3;
 }
 
-.carousel-inner h5{
-    text-shadow: 3px 3px 3px #cb747b;
-    font-size: 400%;
+h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+    margin-top: 2%;
+    font-size: 240%;
+    margin-bottom: 2%;
+    color: #e6aeb3;
+    text-shadow: 2px 2px 2px #cb747b;
 }
 
 p{
@@ -92,9 +44,28 @@ p{
     font-size: 125%;
 }
 
-.carousel-inner p{
-    text-shadow: 2px 2px 2px #cb747b; 
-    font-size: 120%;
+
+/*navbar*/
+.sticky{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.textPink{
+    color: #cb747b;
+    font-size: 125%;
+    font-weight: bold;
+}
+
+.colorPinkTransition{
+    color: #cb747b;
+    transition: 0.5s;
+}
+
+.colorPinkTransition:hover{
+    color: #e6aeb3;
 }
 
 #carouselAutoplaying{
@@ -117,6 +88,36 @@ p{
     scroll-margin-top: 55px;
 }
 
+
+/*carousel*/
+.carousel-inner h5{
+    text-shadow: 3px 3px 3px #cb747b;
+    font-size: 400%;
+}
+
+.carousel-inner p{
+    text-shadow: 2px 2px 2px #cb747b; 
+    font-size: 120%;
+}
+
+
+/*cartes*/
+.ui{
+    margin-top: 2%;
+}
+
+.achat h1{
+    margin-bottom: 3%;
+}
+
+.card img{
+    margin-top: 10px;
+}
+
+.centerText{
+    text-align: center;
+}
+
 .roseatre{
     background-color: #cb747b;
     align-items: center;
@@ -126,28 +127,37 @@ p{
     color: white;
 }
 
-.centerText{
-    text-align: center;
-}
-
-.colorPinkTransition{
-    color: #cb747b;
-    transition: 0.5s;
-}
-
-.colorPinkTransition:hover{
-    color: #e6aeb3;
-}
-
 .centerItems{
     display: flex;
     justify-content: center;
 }
 
-.textPink{
-    color: #cb747b;
-    font-size: 125%;
-    font-weight: bold;
+
+/*panels*/
+.panels{
+    height: 70vh;
+    width: 99.1vw;
+
+    display:flex;
+    margin-top: 2%;
+}
+
+.panel{
+    height: 100%;
+    flex:1;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition : flex .7s ease-in-out;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel:hover{
+    flex: 3;
 }
 
 .titreJeu{
@@ -156,13 +166,27 @@ p{
     text-shadow: 3px 3px 3px #e6aeb3;
 }
 
-.whiteBackground{
-    background-color: white;
+.panel:hover>.titreJeu{
+    opacity: 100%;
 }
 
-.pinkBackground{
-    background-color: rgb(241, 233, 233);
+.muta{
+    background-image: url("../img/index/muta.jpg");
 }
+.luna{
+    background-image: url("../img/index/luna.jpg");
+}
+
+.chi{
+    background-image: url("../img/index/chi.jpg");
+}
+
+.stray{
+    background-image: url("../img/index/stray.jpg");
+}
+
+
+/*contacts*/
 
 .contacts{
     padding-bottom: 5%;
