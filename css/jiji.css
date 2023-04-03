@@ -182,8 +182,12 @@ p{
     text-align: center;
 }
 
+.produit h5{
+    font-size: 200%;
+}
+
 .description{
-    padding-top: 6%;
+    padding-top: 5%;
 }
 
 .roseatre{

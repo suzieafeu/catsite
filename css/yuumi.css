@@ -149,29 +149,21 @@ p{
     opacity: 100%;
 }
 
-.chatpotte{
-    background-image: url("../img/chapoto/chatpotte.jpg");
+.yuumi{
+    background-image: url("../img/yuumi/yuumi.jpg");
 }
-.kitty{
-    background-image: url("../img/chapoto/kitty.jpg");
-}
-
-.perrito{
-    background-image: url("../img/chapoto/perrito.jpg");
+.norra{
+    background-image: url("../img/yuumi/norra.jpg");
 }
 
-.loup{
-    background-image: url("../img/chapoto/loup.jpg");
+.grim{
+    background-image: url("../img/yuumi/grim.jpg");
 }
 
 
 /*cartes achats*/
 .ui{
     margin-top: 2%;
-}
-
-.produit img{
-    margin-top: 5%;
 }
 
 .sugg img{
@@ -182,8 +174,13 @@ p{
     text-align: center;
 }
 
+.produit h5{
+    padding-top: 10%;
+    font-size: 200%;
+}
+
 .description{
-    padding-top: 6%;
+    padding-top: 15%;
 }
 
 .roseatre{

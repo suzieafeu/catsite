@@ -149,19 +149,19 @@ p{
     opacity: 100%;
 }
 
-.chatpotte{
-    background-image: url("../img/chapoto/chatpotte.jpg");
+.marie{
+    background-image: url("../img/aristo/marie.jpg");
 }
-.kitty{
-    background-image: url("../img/chapoto/kitty.jpg");
-}
-
-.perrito{
-    background-image: url("../img/chapoto/perrito.jpg");
+.toulouse{
+    background-image: url("../img/aristo/toulouse.jpg");
 }
 
-.loup{
-    background-image: url("../img/chapoto/loup.jpg");
+.berlioz{
+    background-image: url("../img/aristo/berlioz.jpg");
+}
+
+.duchesse{
+    background-image: url("../img/aristo/duchesse.jpg");
 }
 
 
