@@ -149,29 +149,21 @@ p{
     opacity: 100%;
 }
 
-.chatpotte{
-    background-image: url("../img/chapoto/chatpotte.jpg");
+.suzume{
+    background-image: url("../img/daijin/suzume.jpg");
 }
-.kitty{
-    background-image: url("../img/chapoto/kitty.jpg");
-}
-
-.perrito{
-    background-image: url("../img/chapoto/perrito.jpg");
+.sota{
+    background-image: url("../img/daijin/sota.jpg");
 }
 
-.loup{
-    background-image: url("../img/chapoto/loup.jpg");
+.daijin{
+    background-image: url("../img/daijin/daijin.jpg");
 }
 
 
 /*cartes achats*/
 .ui{
     margin-top: 2%;
-}
-
-.produit img{
-    margin-top: 5%;
 }
 
 .sugg img{

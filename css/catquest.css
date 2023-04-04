@@ -149,19 +149,15 @@ p{
     opacity: 100%;
 }
 
-.chatpotte{
-    background-image: url("../img/chapoto/chatpotte.jpg");
+.spirry{
+    background-image: url("../img/catquest/spirry.jpg");
 }
-.kitty{
-    background-image: url("../img/chapoto/kitty.jpg");
-}
-
-.perrito{
-    background-image: url("../img/chapoto/perrito.jpg");
+.drakoth{
+    background-image: url("../img/catquest/drakoth.jpg");
 }
 
-.loup{
-    background-image: url("../img/chapoto/loup.jpg");
+.daijin{
+    background-image: url("../img/catquest/kitcat.jpg");
 }
 
 
@@ -170,12 +166,12 @@ p{
     margin-top: 2%;
 }
 
-.produit img{
-    margin-top: 5%;
-}
-
 .sugg img{
     margin-top: 10px;
+}
+
+.produit h5{
+    font-size: 200%;
 }
 
 .centerText{
@@ -198,7 +194,7 @@ p{
 .centerItems{
     display: flex;
     justify-content: center;
-    margin-top: 5%;
+    margin-top: 13%;
 }
 
 
