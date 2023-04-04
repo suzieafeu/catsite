@@ -152,12 +152,17 @@ p{
 .spirry{
     background-image: url("../img/catquest/spirry.jpg");
 }
+
 .drakoth{
     background-image: url("../img/catquest/drakoth.jpg");
 }
 
-.daijin{
+.kitcat{
     background-image: url("../img/catquest/kitcat.jpg");
+}
+
+.mage{
+    background-image: url("../img/catquest/mage.jpg");
 }
 
 
