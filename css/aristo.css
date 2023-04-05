@@ -25,11 +25,22 @@ h1{
     font-family: 'Oswald', sans-serif;
     font-family: 'Righteous', cursive;
     font-size: 400%;
+    font-weight: bold;
+    color: #ffffff;
+    text-shadow: 3px 3px 3px #cb747b
+}
+
+h2{
+    text-align: center;
+    padding-top: 5%;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Righteous', cursive;
+    font-size: 400%;
     color: #cb747b;
     text-shadow: 2px 2px 2px #e6aeb3;
 }
 
-h2{
+h3{
     text-align: center;
     font-family: 'Oswald', sans-serif;
     font-family: 'Righteous', cursive;
@@ -92,13 +103,6 @@ p{
 
 
 /*carousel*/
-.carousel-inner h5{
-    text-shadow: 3px 3px 3px #cb747b;
-    font-size: 400%;
-    font-family: 'Oswald', sans-serif;
-    font-family: 'Righteous', cursive;
-}
-
 .carousel-inner p{
     text-shadow: 2px 2px 2px #cb747b; 
     font-size: 120%;
